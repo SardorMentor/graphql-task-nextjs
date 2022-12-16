@@ -18,6 +18,7 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
   gap: 24px;
   padding: 24px;
 }
@@ -33,6 +34,15 @@ body {
 .title {
   font-size: 40px;
   line-height: 48px;
+}
+.button {
+  border: none;
+  padding: 16px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgb(46, 98, 229);
+  color: white;
+  border-radius: 4px;
 }
 .loading {
   font-size: 40px;
